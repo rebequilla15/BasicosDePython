@@ -66,3 +66,4 @@ print ("==========FUNCION PAR_IMPARE()==============")
 mi_numero = int (input("¿Cual es el numero que quieres verificar?: "))
 print (f"El numero que desea verificar es {mi_numero}")
 print (par_impar (mi_numero))
+
