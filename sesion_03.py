@@ -41,12 +41,13 @@ for i in mi_lista_2:
 
 mi_lista_2 = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes"]
 
-for lista in mi_lista_2:
-    if lista == "Lunes":
-        continue
+i = 0
 
-    i = 0
-
-    while i < 3:
-        print(lista)
-        i += 1
+while i < 3:
+    for dia in mi_lista_2:
+        if dia == "Lunes":
+            continue
+        
+        print(dia)
+    
+    i += 1
