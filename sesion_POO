@@ -1,0 +1,19 @@
+#6- Herencia
+
+class Padre:
+    print("Colores")
+
+class hija_1(Padre):
+    print("Color rosa")
+
+class hija_2(Padre):
+    print("Color morado")
+
+
+#9- Estado
+
+class Agua:
+    print("El agua está fría")
+
+class AguaHirviendo(Agua):
+    print("El agua ahora está hirviendo")
